@@ -1,0 +1,133 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 20px;
+    font-size: 20px;
+   
+}
+
+html, body {
+    background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+} 
+
+header {
+    color: black;
+    width: 91.5%;   /* 1130px */
+    height: 60px;  /*  60px */
+    display: flex;
+    font-size: 25px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(112, 255, 226);
+    position: relative;
+    left: 5%;    /*   85px  */ 
+}
+
+#one {
+    position: relative;
+    left: 30%;   /* 350px*/
+}
+
+
+.container div {
+    color: black;
+    width: 30%;  /*  400px  */
+    height: 400px;   /*  400px   */
+    display: flex;
+    font-size: 1em;    /*  25px  */ 
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(112, 255, 226);
+}
+
+.container {
+    display: flex;
+}
+
+.verbs div {
+    color: black;
+    width: 30%;  /*  400px  */
+    height: 400px;   /*  400px   */
+    display: flex;
+    font-size: 1em;    /*  25px  */ 
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(112, 255, 226);
+    position: relative;
+    left: 5%;   /* 350px*/
+
+}
+
+.verbs {
+    display: flex;
+}
+
+.vocabulary div {
+    color: black;
+    width: 30%;  /*  400px  */
+    height: 400px;   /*  400px   */
+    display: flex;
+    font-size: 1em;    /*  25px  */ 
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(112, 255, 226);
+    position: relative;
+    left: 5%;   /* 350px*/
+
+}
+
+.vocabulary {
+    display: flex;
+}
+
+.expression div {
+    color: black;
+    width: 30%;  /*  400px  */
+    height: 400px;   /*  400px   */
+    display: flex;
+    font-size: 1em;    /*  25px  */ 
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(112, 255, 226);
+    position: relative;
+    left: 5%;   /* 350px*/
+
+}
+
+.expression {
+    display: flex;
+}
+
+
+
+.example div {
+    color: black;
+    width: 91.5%;   /*  1200px  */ 
+    height: 400px;
+    display: flex;
+    font-size: 1em;    /* 25px  */ 
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(112, 255, 226);
+    position: relative;
+    left: 5%;   /* 350px*/
+}
+
+.example {
+    display: flex;
+}
+
+
+
