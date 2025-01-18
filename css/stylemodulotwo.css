@@ -30,17 +30,7 @@ header {
     left: 5%;    /*   85px  */ 
 }
 
-header h3 {
-    text-align: center;
-}
-
-#one {
-    position: relative;
-    left: 35%;   /* 350px*/
-}
-
-
-.container div {
+.modal-verbs div {
     color: black;
     width: 30%;  /*  400px  */
     height: 400px;   /*  400px   */
@@ -50,9 +40,11 @@ header h3 {
     align-items: center;
     justify-content: center;
     background-color: rgb(112, 255, 226);
+    position: relative;
+    left: 5%;   /* 350px*/
 }
 
-.container {
+.modal-verbs {
     display: flex;
 }
 
@@ -136,7 +128,7 @@ header h3 {
 button {
     background-color: rgb(112, 255, 226);
     position: relative;
-    left: 45%;
+    left: 50%;
     border-radius: 5px;
 }
 
@@ -145,12 +137,7 @@ button a {
     text-decoration: none;
 }
 
+@media only screen and (max-midth: 450px) {
 
-
-
-
-
-
-
-
-
+    
+}
